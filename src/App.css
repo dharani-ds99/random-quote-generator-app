@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script&display=swap');
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.quote {
+  background-image: url(./asserts/bgimg.webp);
+  background-size: cover;
+  width: 550px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quote h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: navy;
+}
+
+.quote h4,p {
+  font-size: 1.5rem;
+  font-family: 'Clicker Script', cursive;
+}
+
+.btn {
+  color: white;
+  background-color: blue;
+  outline-style: none;
+  border-radius: 5%;
+  display: block;
+}
