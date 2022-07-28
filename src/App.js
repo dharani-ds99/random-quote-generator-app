@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div className="App">
       <div className='quote'>
-        <h4>{date}</h4>
+        <h5>{date}</h5>
         <h1>{quote}</h1>
         <p>---{author}</p>
         <button className='btn' onClick={generateQuote}>Next Quote</button>
